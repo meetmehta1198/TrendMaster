@@ -12,9 +12,16 @@ Training and Testing data split : 70% and 30% respectively.
 
 Steps for running this project:
 
-Step-1 : run dataset_generator.py
+Step-1 : Create your account in twitter-developer and register your application in order to get access to twitter for scraping.
 
-Step-2 : run model.py for training
+Step-2 : run dataset_generator.py with proper access key and consumer key tokens.
+
+Step-3 : run model.py for training
+
+
+Steps for creating account in twitter-developer and registering your application
+
+Follow article on this link : https://medium.com/@divyeshardeshana/create-twitter-developer-account-app-4ac55e945bf4
 
 
 Libraries used in this project :
