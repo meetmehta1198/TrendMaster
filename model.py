@@ -14,7 +14,7 @@ from keras.layers import Dense
 from sklearn.model_selection import train_test_split
 
 
-df=pd.read_csv('/Users/meetmehta/Desktop/Web_Scrapping/trending_final.csv',header=0)
+df=pd.read_csv('Enter path of csv file of dataset',header=0)
 
 
 X=df.iloc[:,0:11]
