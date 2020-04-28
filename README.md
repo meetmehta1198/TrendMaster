@@ -19,7 +19,7 @@ Step-2 : run dataset_generator.py with proper access key and consumer key tokens
 Step-3 : run model.py for training
 
 
-Steps for creating account in twitter-developer and registering your application
+Steps for creating account in twitter-developer and registering your application:
 
 Follow article on this link : https://medium.com/@divyeshardeshana/create-twitter-developer-account-app-4ac55e945bf4
 
