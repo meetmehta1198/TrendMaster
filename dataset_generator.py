@@ -16,10 +16,10 @@ from textblob import TextBlob
 import preprocessor as p
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-consumer_key = 'KDCJwQXtknQhZWqjvLaBt8isv'
-consumer_secret = 'plXpB6788VI88ZREXqbEFuUubOL7E6IQzKP5zGmlxtInlQGxMY'
-access_key= '841435028-Bsa3EQEfAxGBW088S16VwStqbLfqeLUl1c5CV0DA'
-access_secret = 'YW7GIAnn1apcHlmUs6xnquNMaDvGgK3InrHhOkkFtkxVN'
+consumer_key = 'xxxxx'
+consumer_secret = 'xxxxx'
+access_key= 'xxxxx'
+access_secret = 'xxxxx'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
@@ -153,11 +153,11 @@ def write_tweets(keyword,file):
 
 election_keywords = 'trending OR NarendraModi OR BJP or IndianNationalCongress OR RahulGandhi OR Election2019 OR COVID19'
 
-file='/Users/meetmehta/Desktop/Web_Scrapping/trending_final.csv'
+file='xxxxx'
 
 write_tweets(election_keywords, file)
      
-df=pd.read_csv('/Users/meetmehta/Desktop/Web_Scrapping/trending_final.csv',header=0)
+
     
     
     
